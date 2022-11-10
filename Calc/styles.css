@@ -1,0 +1,92 @@
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    /* background: black; */
+}
+
+.container {
+    border-radius: 12.5%;
+    width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 5px 5px grey;
+    background-color: black;
+}
+
+
+.display {
+    /* color: white; */
+    border-radius: 12.5%;
+    border-bottom: solid 3px white;
+    text-align: right;
+    height: 100px;
+    /* line-height: 100px; */
+    /* font-size: 50px; */
+    padding-top: 10px;
+    padding-right: 50px;    
+}
+
+.history {
+    height: 20px;
+    margin: 0px;
+    border: 0px;
+    color: darkgray;
+}
+
+.result {
+    font-size: 32.5px;
+    /* color: rgb(192, 147, 75); */
+    color: white;
+}
+
+.mathcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.buttonContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.buttons {
+    height: 40px;
+    width: 60px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 22px;
+    background-color: rgb(206, 202, 202)
+}
+
+#zero {
+    background-color: white;
+}
+
+#allClear {
+    background-color: grey;
+}
+
+#mathfun {
+    padding: 10px 0px 10px 0px;
+    width: 85px;
+    height: 20px;
+    border-radius: 45%;
+    background-color: rgb(97, 71, 14);
+}
+
+#operations {
+    background-color: rgb(227, 162, 40);
+    font-weight: bold;
+}
+
+#answer {
+    background-color: rgb(227, 162, 40);
+    font-weight: bold;
+}
+
